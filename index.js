@@ -94,14 +94,18 @@ document.addEventListener('DOMContentLoaded', () => {
   // 3. CARD OPEN/CLOSE (Human Flow)
   // Typing Animation Configuration
   const typingConfig = {
-    lines: [
-      "You've been with me through my best days and my hardest ones — and I can't imagine life without you.",
-      "On your special day, I just want you to feel how deeply loved and appreciated you truly are.",
-      "You deserve all the joy in the world, today and always."
-    ],
-    duration: 1.5, // Faster typing for better UX
-    pauseBetweenLines: 0.4
-  };
+  lines: [
+    "Ennoda best days layum seri, romba kastamana times layum seri, nee eppome enkoodave irunthuruka 💖",
+
+    "Unna illama oru life ah ennala imagine kooda panni paaka mudiyathu saami ✨",
+
+    "Iniku unnoda special day. Nee enaku evlo mukkiyam, unna naa evlo value pandren nu iniku nee unmaiyave feel pannanum ❤️",
+
+    "Intha ulagathula irukara ella happiness um unaku kedaikanum. Iniku matum illa, eppome! Happy Birthday Thangoo ✨💖🎂"
+  ],
+  duration: 1.5,
+  pauseBetweenLines: 0.4
+};
 
   function startTypingAnimation() {
     const tl = gsap.timeline({
